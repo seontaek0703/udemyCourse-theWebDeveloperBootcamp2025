@@ -1,0 +1,28 @@
+span {
+  background-color: palevioletred;
+  border: 1px solid black;
+  /* width: 500px; */
+  /* 인라인 디스플레이는 width, height 무시 */
+  padding: 50px;
+  margin: 50px;
+  /* margin은 Vertical에 영향 X, Horizontal에만 영향을 줄 수 있음 */
+}
+
+h1 {
+  background-color: paleturquoise;
+  border: 1px solid black;
+  width: 300px;
+  /* 인라인 요소와 달리 width, height 영향 받음 */
+  padding: 50px;
+  margin: 100px;
+  display: none;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  background-color: olivedrab;
+  border: 5px solid black;
+  display: inline-block;
+  margin: 50px;
+}
