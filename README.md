@@ -19,15 +19,25 @@
 - Pseudo Classes :
 - Pseudo Elements ::
 - What is THE CASCADE
-- Priority CSS with Specificity
-    + Priority in CSS
-> | 100 | 10           | 1              |
-> | --- | ------------ | -------------- |
-> | ID  | Class        | Element        |
-> | \*  | Attribute    | Pesudo-Element |
-> | \*  | Pseudo-Class | \*             |
->
-> Apply priority in the order of ID over CLASS, and CLASS over ELEMENT. Even if you use more than 10 ELEMENT selectors, they still do not have higher priority than a single CLASS selector.
+- Priority CSS with Specificity + Priority in CSS
+
+  > | 100 | 10           | 1              |
+  > | --- | ------------ | -------------- |
+  > | ID  | Class        | Element        |
+  > | \*  | Attribute    | Pesudo-Element |
+  > | \*  | Pseudo-Class | \*             |
+  >
+  > Apply priority in the order of ID over CLASS, and CLASS over ELEMENT. Even if you use more than 10 ELEMENT selectors, they still do not have higher priority than a single CLASS selector.
+
+- CSS Units
+  > | Relative  | Absolute |
+  > | --------- | -------- |
+  > | EM        | PX       |
+  > | REM       | PT       |
+  > | VH        | CM       |
+  > | VW        | IN       |
+  > | %         | IN       |
+  > | AND MORE! | MM       |
 
 ## Box Model
 
@@ -35,22 +45,22 @@
 - Border and Border Radius(width style color)
 - Padding(Inner Space Border)
 
-    + Padding Shorthand Property
+  - Padding Shorthand Property
 
-> | Shorthand | ways                     |
-> | --------- | ------------------------ |
-> | one       | 4ways                    |
-> | two       | Vertical, Horizontal     |
-> | three     | Top, Horizontal, Bottom  |
-> | four      | Top, Right, Bottom, Left |
+    > | Shorthand | ways                     |
+    > | --------- | ------------------------ |
+    > | one       | 4ways                    |
+    > | two       | Vertical, Horizontal     |
+    > | three     | Top, Horizontal, Bottom  |
+    > | four      | Top, Right, Bottom, Left |
 
-- Margin(Outer Space Border)
-    + Margin Shorthand Property
-> | Shorthand | ways                     |
-> | --------- | ------------------------ |
-> | one       | 4ways                    |
-> | two       | Vertical, Horizontal     |
-> | three     | Top, Horizontal, Bottom  |
-> | four      | Top, Right, Bottom, Left |
+  - Margin(Outer Space Border) + Margin Shorthand Property
+
+    > | Shorthand | ways                     |
+    > | --------- | ------------------------ |
+    > | one       | 4ways                    |
+    > | two       | Vertical, Horizontal     |
+    > | three     | Top, Horizontal, Bottom  |
+    > | four      | Top, Right, Bottom, Left |
 
 ## JS: JavaScript
