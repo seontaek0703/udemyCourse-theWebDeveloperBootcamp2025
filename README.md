@@ -39,6 +39,10 @@
   > | %         | IN       |
   > | AND MORE! | MM       |
 
+  + EM: * Parent's Element(font-size)
+
+  + REM(Root EM): * HTML's Element(font-size)
+
 ## Box Model
 
 - Box Model?
